@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.div h2
+{
+    position: absolute;
+    left: 50%;
+    margin: 20px;
+    height: 30px;
+    width: 290px;
+    color: black;
+    text-transform: uppercase;
+}
+.div a h3{
+    position: absolute;
+    top: 20px;
+    left: 7%;
+    height: 30px;
+    width: 90px;
+    color: black;
+}
+.div a h3:hover
+{
+    text-transform: uppercase;
+}
+.sky{
+    background-image: url(sky1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+.road
+{
+    height: 200px;
+    width: 1000%;
+    background-image: url("road1.jpg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    animation: road 5s linear infinite;
+}
+@keyframes road
+{
+    100%
+    {
+        transform:translateX(-3400px) ;
+    }
+}
+.city
+{
+    background-image: url(city.png);
+    height: 250px;
+    width: 500%;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    animation:city 20s linear infinite;
+}
+@keyframes city
+{
+    100%
+    {
+        transform: translateX(-3400px);
+    }
+}
+.helicopter
+{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+}
+.helicopter img
+{
+    width: 100%;
+}
+.car
+{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 120px;
+    left: 40%;
+}
+.car img
+{
+    width: 100%;
+}
+.car1
+{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: 20%;
+}
+.car1 img
+{
+    width: 100%;
+}
+.parachute
+{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+}
+.parachute img
+{
+    width: 100%;
+}
+.image
+{
+    background-image: url(myphoto2.jpg);
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    background-position-x: center;
+    background-position-y: 20%;
+    z-index: -1;
+}
+.contact
+{
+    height: 100vh;
+    width: 30%;
+    background-color: rgb(134, 59, 59);
+}
+.writing1
+{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    font-size: 20px;
+}
+.contact1
+{
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    left: 80%;
+    top: 0;
+    background-color: rgb(134, 59, 59);
+}
+.writing2
+{
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    font-size: 20px;
+    color: lightcoral;
+}
+.click
+{
+    color: white;
+}
+.click:hover
+{
+    color:lightseagreen;
+}
+.body1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("myphoto2.jpg");
+    background-attachment: fixed;
+}
+.container{
+    color:white;
+    width: 500px;
+    height: 450px;
+    margin: 60px auto 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 35px;
+    border: 3px solid tomato;
+    border-radius: 70px 0 70px 0;
+}
+.image1{
+    width: 50px;
+    height: 40px;
+    border:3px solid tomato;
+    border: 50%;
+    position: absolute;
+    top: -2%;
+    left: 45%;
+    overflow: hidden;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+.container input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px 0 15px 0;
+    border:2px solid tomato;
+    
+    margin: 15px ;
+    background-color: transparent ;
+    color: #fff;
+    font-size: 20px;
+}
+.container input:focus
+{
+    background-color: black;
+    color: lightgreen;
+}
+.container input:hover
+{
+    background-color: black;
+    color: lightgreen;
+}
+#log{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+#log:hover{
+    background-color: black;
+    color: lightgreen;
+}
+.container a{
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.container a:hover
+{
+    color:lightseagreen;
+}
+
+
